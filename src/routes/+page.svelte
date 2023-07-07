@@ -29,7 +29,7 @@
   <input
     type="text"
     placeholder="JPY"
-    class="input input-bordered w-full max-w-xs text-xl"
+    class="input input-bordered w-full max-w-xs text-xl focus:ring-0 focus:ring-offset-0"
     bind:value={yen}
   />
 

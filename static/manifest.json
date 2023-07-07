@@ -2,7 +2,7 @@
     "short_name": "JPY",
     "name": "JPY to THB",
     "start_url": "/",
-    "background_color": "#22616BFF",
+    "background_color": "#1e2329",
     "theme_color": "#22616BFF",
     "display": "standalone"
 }
