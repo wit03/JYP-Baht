@@ -11,7 +11,7 @@
             rate = res.rates.THB.toFixed(4);
         }).catch((err) => {
             console.log(err, "using fallback rate");
-            rate = 0.25;
+            rate = 0.2445;
         });
 </script>
 
@@ -28,7 +28,7 @@
     <input
         type="text"
         placeholder="JPY"
-        class="input input-bordered input-primary w-full max-w-xs text-xl"
+        class="input input-bordered w-full max-w-xs text-xl"
         bind:value={yen}
     />
 
