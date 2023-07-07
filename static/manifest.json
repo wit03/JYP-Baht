@@ -3,6 +3,6 @@
     "name": "JPY to THB",
     "start_url": "/",
     "background_color": "#1e2329",
-    "theme_color": "#22616BFF",
+    "theme_color": "#1e2329",
     "display": "standalone"
 }
