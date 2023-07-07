@@ -1,0 +1,8 @@
+{
+    "short_name": "JPY",
+    "name": "JPY to THB",
+    "start_url": "/",
+    "background_color": "#22616BFF",
+    "theme_color": "#22616BFF",
+    "display": "standalone"
+}
