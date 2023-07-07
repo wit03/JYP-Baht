@@ -27,9 +27,9 @@
   </div>
 
   <input
-    type="text"
+    type="number"
     placeholder="JPY"
-    class="input input-bordered w-full max-w-xs text-xl focus:ring-0 focus:ring-offset-0"
+    class="input input-bordered w-full max-w-xs text-xl focus:ring-0 focus:ring-offset-0 focus:border-transparent"
     bind:value={yen}
   />
 
@@ -37,7 +37,7 @@
     <div class="flex">
       <div>Price in THB:</div>
       <input
-        type="text"
+        type="number"
         placeholder="Bath"
         class="input input-bordered input-info w-full max-w-xs"
         value={withVat && yen >= 5000
