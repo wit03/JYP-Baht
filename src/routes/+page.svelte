@@ -28,6 +28,9 @@
 
   <input
     type="number"
+    inputmode="decimal"
+    pattern="[0-9]*"
+    min="0"
     placeholder="JPY"
     class="input input-bordered w-full max-w-xs text-xl focus:ring-0 focus:ring-offset-0 focus:outline-0"
     bind:value={yen}
@@ -38,9 +41,6 @@
       <div>Price in THB:</div>
       <input
         type="number"
-        inputmode="decimal"
-        pattern="[0-9]*"
-        min="0"
         placeholder="Bath"
         class="input input-bordered input-info w-full max-w-xs"
         value={withVat && yen >= 5000
