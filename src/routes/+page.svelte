@@ -38,7 +38,7 @@
       <div>Price in THB:</div>
       <input
         type="number"
-        pattern="\d*"
+        inputmode="numeric"
         placeholder="Bath"
         class="input input-bordered input-info w-full max-w-xs"
         value={withVat && yen >= 5000
