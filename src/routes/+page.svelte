@@ -42,7 +42,7 @@
       <input
         type="number"
         placeholder="Bath"
-        class="input input-bordered input-info w-full max-w-xs"
+        class="input input-bordered input-info w-full max-w-xs opacity-100"
         value={withVat && yen >= 5000
           ? ((yen - yen * 0.08) * rate).toFixed(2)
           : (yen * rate).toFixed(2)}
