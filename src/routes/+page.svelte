@@ -39,6 +39,8 @@
       <input
         type="number"
         inputmode="decimal"
+        pattern="[0-9]*"
+        min="0"
         placeholder="Bath"
         class="input input-bordered input-info w-full max-w-xs"
         value={withVat && yen >= 5000
